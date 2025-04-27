@@ -1,5 +1,4 @@
 import { createClient, type Client } from "@libsql/client";
-import { readdirSync } from "fs";
 import path from "path";
 
 const globalForDb = globalThis as unknown as { client: Client | undefined };
